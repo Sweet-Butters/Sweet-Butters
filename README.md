@@ -17,20 +17,76 @@
 
 **Jung Hoegwang · Yonsei University, Department of Chemistry**
 
-I run TripPups, create AI courses, and organize hackathons. I am also exploring physical AI through a project at PseudoLab.
+I build with AI and help others use it in their own work. My projects span travel, video editing, personal automation, and robotics. I also organize hackathons, run hands-on workshops, and create AI courses.
 
-**Proactive. I create the opportunities I need.**
+**Proactive.** I learn by making things, trying them with people, and sharing what I find.
 
-My first project was a small tool that sends important emails to my phone. I still build things around problems I encounter in everyday life and work.
+## 📌 Projects
 
-## 🧭 What I Work On
+| Project | What it does | Links |
+| :--- | :--- | :--- |
+| **📬 Mail Notifier** | Uses Gemini to identify important Gmail messages and send them to Telegram. My first project. | [Code & setup](https://github.com/Sweet-Butters/mail-notifier) |
+| **🌏 TripPups** | Connects international visitors with local cultural experiences in Korea, with AI-assisted discovery and booking in development. | [Website](https://trip-pups.com) |
+| **🎬 ChannelGam** | A long-form AI video editor being developed to help creators make a first cut in their channel's editing style. | [About](#channelgam) |
 
-| Area | Current work |
-| :--- | :--- |
-| 🛠 AI applications | Email notifications, travel booking MCP integration, and a long-form video editor |
-| 🌏 Startups | TripPups: connecting international visitors with local experiences in Korea |
-| 🤝 Community | HACK:ON hackathons and AI workshops for professionals in their 40s and 50s |
-| 🤖 Physical AI | Simulation asset selection, database visualization, and using Reachy Mini at events |
+### 📬 Mail Notifier
+
+I built this because I kept checking my inbox while waiting for competition and interview results. It reads new messages, uses Gemini to classify their context, and sends relevant ones to a Telegram bot. GitHub Actions runs it on a schedule.
+
+It started as a small personal tool and became my first experience connecting AI to something I used every day.
+
+**Python · Gemini · Gmail API · Telegram Bot · GitHub Actions**
+[Explore the repository →](https://github.com/Sweet-Butters/mail-notifier)
+
+### 🌏 TripPups
+
+TripPups helps international visitors find local experiences that are hard to access through mainstream travel platforms. We work with cultural events, local businesses, and international student communities, and organize outings to learn what visitors actually want to do.
+
+We are building AI-assisted discovery and booking around this work, including MCP integration. The longer-term goal is to connect a local experience with nearby food, shopping, and other activities, so visitor spending reaches more local businesses.
+
+I work on the product, business model, and international community with an eight-person team. Our Kakao MCP integration passed review; automated phone inquiries are still at an early MVP stage.
+
+[Visit TripPups →](https://trip-pups.com)
+
+<a name="channelgam"></a>
+
+### 🎬 ChannelGam · 채널감
+
+ChannelGam grew out of editing lectures, social content, and event videos. We are developing an AI editor that helps identify what to keep in a long recording and produce a first cut suited to a creator's channel.
+
+I lead the team and work on the AI pipeline, evaluation, and product direction. The project combines my own editing needs with feedback from teammates who have video production experience.
+
+---
+
+## 🤝 Community & Teaching
+
+### HACK:ON · 해커온
+
+HACK:ON is an AI hackathon I organize for people who want to turn an idea into a working project. I handle event planning, recruitment, tool sponsorship, and on-site operations.
+
+For our event, we selected **40 participants**, secured access to ElevenLabs and Lovable, and recruited through competition listing sites without paid advertising.
+
+[HACK:ON →](https://hackon.kr)
+
+### AI workshops for working professionals
+
+I run hands-on AI meetups with people from different industries, including education, construction, video production, and online retail. Participants bring their own work problems; we explore where AI tools can help.
+
+The exchange goes both ways: I share tools and implementation approaches, and they teach me how their work actually happens. These conversations have also led to paid projects, including AI product imagery for an online store using Claude Code and Higgsfield.
+
+### Yonsei Premium AI Course
+
+As part of the fifth cohort, I produced AI lectures based on tools and projects I had used myself. Teaching gives me a reason to turn experiments into explanations other people can follow.
+
+---
+
+## 🤖 Physical AI
+
+I am exploring how AI can move beyond a screen through robotics and simulation.
+
+At **PseudoLab's 13th cohort**, I work on the **Simulation Asset** project, focusing on asset selection and database visualization alongside people working in physical AI.
+
+I have used **Reachy Mini** as a hackathon assistant, presentation timer, and TripPups booth guide. I also purchased **Micro Duck** and am learning simulation while waiting for it to arrive.
 
 ---
 
@@ -60,67 +116,16 @@ My first project was a small tool that sends important emails to my phone. I sti
 
 ---
 
-## 📌 Featured Projects
+## 🏆 Selected Highlights
 
-| Project | Why I started | My contribution & progress | Links |
-| :--- | :--- | :--- | :--- |
-| **📬 Mail Notifier**<br>My first project | I kept checking my inbox while waiting for competition and interview results | Gmail → Gemini classification → Telegram notifications, scheduled with GitHub Actions | [GitHub](https://github.com/Sweet-Butters/mail-notifier) |
-| **🌏 TripPups** | International visitors struggle to book local experiences in Korea | Technology, business model, and international community in an eight-person team. Passed Kakao MCP review; our team confirmed interest from around 20 potential partners | [Website](https://trip-pups.com) |
-| **🎬 ChannelGam** | Repetitive editing work across lectures, social media, and event videos | Team lead for AI pipelines, validation, business, and distribution. First in the preliminary round and Top 10 at Yonsei's AI startup hackathon | [Awards](#-achievements) |
-
-<details>
-<summary><b>📬 My first project — from refreshing my inbox to building a notifier</b></summary>
-
-Competition and interview results did not have clear release times, so I checked my inbox throughout the day. I built a tool to notify my phone when an email I was waiting for arrived.
-
-```text
-GitHub Actions cron
-        ↓
-     Gmail API
-        ↓
- Gemini classification
-        ↓
- Telegram notification
-```
-
-I connected the APIs with Python. Gemini reads the context of each email and decides whether it matches what I am waiting for. Relevant emails are then sent to Telegram. This was my first experience solving a daily inconvenience with something I built myself.
-
-[Code and setup →](https://github.com/Sweet-Butters/mail-notifier)
-
-</details>
-
----
-
-## 🏆 Achievements
-
-- **20th out of 1,800 participants** · SCPC 2026 AI Track; technical presentation at Samsung SDS
-- **Excellence Award (최우수상)** · Sogang AI Startup Camp; KRW 1 million team prize
-- **1st in preliminaries · Top 10** · Yonsei Campus Town AI Startup Hackathon, ChannelGam
-- **Selected for the second cohort** · 모두의 창업, TripPups
-- **Passed document screening** · Yonsei Student Startup Competition, 왕중왕전, ChannelGam
-
----
-
-## 💼 Experiences
-
-- **HACK:ON** · Hackathon planning, recruitment, sponsorship, and operations<br>
-  Selected **40 participants** and spread the event through competition listing sites with **no advertising spend**. Secured **USD 880 worth of participant access from ElevenLabs** through cold outreach, plus **Lovable credits for 40 participants**. [hackon.kr](https://hackon.kr)
-
-- **Yonsei Premium AI Course, fifth cohort** · Course production<br>
-  Created lectures based on AI tools and projects I had used and built.
-
-- **AI workshops for working professionals** · Community organizer<br>
-  Initially funded the meetups myself to learn about problems in different industries. Shared AI workflows with video editors, an academy team lead, a construction supervisor, and online store owners. A store owner later commissioned paid AI image work using Claude Code and Higgsfield to replace model photography.
-
-- **PseudoLab, 13th cohort** · Simulation Asset project<br>
-  Working with physical AI practitioners and engineering graduates on **asset selection and database visualization**. After purchasing Reachy Mini and Micro Duck, I joined to learn simulation before Micro Duck arrived.
-
-- **Reachy Mini at events**<br>
-  Used the robot as a HACK:ON event assistant and presentation timer, and to introduce TripPups at our booth.
+- **SCPC 2026 AI Track:** 20th out of 1,800 participants; technical presentation at Samsung SDS.
+- **Sogang AI Startup Camp:** Excellence Award (최우수상).
+- **Yonsei Campus Town AI Startup Hackathon:** first in the preliminary round and Top 10, ChannelGam.
+- **모두의 창업:** selected for the second cohort, TripPups.
 
 ---
 
 <p align="center">
   <b>Proactive.</b><br />
-  When I need something, I learn how to build it and put it to use.
+  Build something useful. Share what you learn.
 </p>
